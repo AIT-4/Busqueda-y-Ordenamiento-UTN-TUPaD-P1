@@ -26,7 +26,7 @@ patente = input("Ingrese la patente interesada en buscar: ")
 inicio_lineal = time.time() # Comienza a medir tiempo
 resultado = busqueda_lineal(lista_patentes, patente)
 if resultado != -1:
-    print(f"El automovil es un {resultado['marca']} modelo {resultado['modelo']} del año {resultado['año']}")
+    print(f"El automovil es un {resultado['marca']} modelo {resultado['modelo']} del año {resultado['anio']}")
 else:
     print("Patente no encontrada.")
 
