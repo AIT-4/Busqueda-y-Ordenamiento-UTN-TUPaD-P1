@@ -40,19 +40,23 @@ def busqueda_binaria(lista, objetivo):
 
 def mostrar_vehiculo(vehiculo):
     print(f"El automóvil patente {vehiculo['patente']}, marca {vehiculo['marca']}, "
-              f"modelo {vehiculo['modelo']}, año {vehiculo['anio']}, color {vehiculo.get('color', 'desconocido')} "
-              f"se encuentra en la base de datos.")
+            f"modelo {vehiculo['modelo']}, año {vehiculo['anio']}, color {vehiculo.get('color', 'desconocido')} "
+            f"se encuentra en la base de datos.")
 
 print("--- Ordenamiento con Quicksort de patentes en lista ---")
 print("Primeros 3 vehículos sin ordenar:")
 for v in lista_patentes[:3]:
     mostrar_vehiculo(v)
-inicio_tiempo_quicksort = time.time()
-lista_patentes_ordenada = quicksort(lista_patentes)
-fin_tiempo_quicksort = time.time()
+
+# Se ordena la lista
+inicio_tiempo_quicksort = time.time() # Comienza a medir tiempo
+lista_patentes_ordenada = quicksort(lista_patentes) 
+fin_tiempo_quicksort = time.time() # Termina contador
+
 print("Primeros 3 vehículos ordenados por patente:")
 for v in lista_patentes_ordenada[:3]:
     mostrar_vehiculo(v)
+
 print(f"---Tiempo de ordenamiento: {(fin_tiempo_quicksort - inicio_tiempo_quicksort):.6f} seg---")
 
 print("\n" + "/" * 40 + "\n")
