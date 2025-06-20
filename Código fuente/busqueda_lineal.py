@@ -13,11 +13,15 @@ with open('./Busqueda-y-Ordenamiento-UTN-TUPaD-P1/Código fuente/patentes.csv', 
 ## ALGORITMOS DE BUSQUEDA
 # Busqueda Lineal
 
+# Definimos funciones
+
 def busqueda_lineal(lista, objetivo):
     for i in range(len(lista)):
         if lista[i]['patente'] == objetivo:
             return lista[i]
     return -1
+
+# Programa principal
 
 print("---Busqueda LINEAL de patentes en lista de diccionarios.---")
 print("Ejemplo: NYG296 o PNZ619")

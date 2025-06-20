@@ -15,6 +15,11 @@ with open(csv_path, 'r') as archivo:
 
 # El archivo patentes.csv tiene 100.000 elementos (patentes) con sus datos correspondientes del automovil.
 
+## ALGORITMOS DE BUSQUEDA
+# Busqueda Binaria
+
+# Definimos funciones
+
 def busqueda_binaria(lista, objetivo):
     izquierda, derecha = 0, len(lista) - 1
     while izquierda <= derecha:
@@ -26,6 +31,8 @@ def busqueda_binaria(lista, objetivo):
         else:
             derecha = medio - 1
     return -1
+    
+# Programa principal
 
 # Se ordenna las patentes
 lista_patentes_ordenada = sorted(lista_patentes)
