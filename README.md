@@ -44,3 +44,8 @@ donde dice `busqueda_linea.py` cambiar el archivo a ejecutar.
 > **Importante:** Si va a ejecutar `ordenamiento_de_burbuja.py`, `ordenamiento_de_insercion.py` y `ordenamiento_de_seleccion.py` tenga en cuenta que estos van a tardar demasiado y el procesamiento se elevara en su computadora. La cantidad de registros de la hoja de calculo para este tipo de ordenamiento es mucho por lo que se tomara bastante tiempo. Estos algoritmos son para listas mas pequeñas.
 > En la ultima linea del código puede encontrar un comentario donde indica el tiempo que tardo la prueba.
 > Si quiere ejecutarlos debe modificar la hoja de cálculos eliminado los registros hasta que le queden solo 20 como para asegurar una prueba mas acorde con el algoritmo.
+
+## Reflexiones del Equipo
+
+Este trabajo integrador sobre algoritmos de búsqueda y ordenamiento en Python ha sido una experiencia enriquecedora y desafiante para ambos integrantes del equipo. Nos permitió no solo aplicar los conocimientos teóricos adquiridos en la cátedra de Programación 1, sino también enfrentarnos a escenarios más cercanos a la realidad de la programación.
+Este proyecto nos permitió consolidar nuestros conocimientos en la selección, implementación y análisis de algoritmos. Entendemos ahora que la elección del algoritmo correcto y la estructura de datos adecuada pueden tener un impacto significativo en el rendimiento de una aplicación, especialmente con grandes volúmenes de información.
