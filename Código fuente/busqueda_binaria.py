@@ -1,12 +1,17 @@
 import csv
 import time # Para medir el tiempo
+import os
 
 lista_patentes = []
-with open('./Busqueda-y-Ordenamiento-UTN-TUPaD-P1/Código fuente/patentes.csv', 'r') as archivo: 
-    # IMPORTANTE: El directorio debe ser el absoluto y no el relativo para que encuentre el archivo
-    lector = csv.DictReader(archivo)
-    for fila in lector:
-        lista_patentes.append(fila['patente'])
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(script_dir, 'patentes.csv')
+
+# Se abre el archivo utilizando la ruta construida.
+with open(csv_path, 'r') as archivo:
+        lector = csv.DictReader(archivo)
+        for fila in lector:
+            lista_patentes.append(fila['patente'])
 
 # El archivo patentes.csv tiene 100.000 elementos (patentes) con sus datos correspondientes del automovil.
 
