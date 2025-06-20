@@ -47,4 +47,4 @@ print("Primeros 10 items ordenados.")
 print(lista_ordenada[:10])
 
 print(f"---Tiempo de busqueda: {(fin_tiempo - inicio_tiempo):.6f} seg---")
-# Se realizo prueba y el tiempo fue de 174.304 (2 minitus y medio aproximadamente)
+# Se realizo prueba y el tiempo fue de 174.304 seg (2 minutos y medio aproximadamente)

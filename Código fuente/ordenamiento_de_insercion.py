@@ -46,3 +46,4 @@ print(lista_ordenada[:10])
 
 
 print(f"---Tiempo de busqueda: {(fin_tiempo - inicio_tiempo):.6f} seg---")
+# Se realizo prueba y el tiempo fue de 174,908 seg (3 minutos aproximadamente)
