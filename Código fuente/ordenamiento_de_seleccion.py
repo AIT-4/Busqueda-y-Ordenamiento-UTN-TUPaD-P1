@@ -16,33 +16,35 @@ with open(csv_path, 'r') as archivo:
 # El archivo patentes.csv tiene 100.000 elementos (patentes) con sus datos correspondientes del automovil.
 
 ## ALGORITMOS DE ORDENAMIENTO
-# Busqueda por Inserción
+# Busqueda por selección
 
 # Definimos funciones
-def ordenamiento_insercion(lista):
-    for i in range(len(lista)):
-        key = lista[i]
-        j = i-1
-        while j >=0 and key < lista[j] :
-            lista[j+1] = lista[j]
-            j -= 1
-    lista[j+1] = key
+def ordenamiento_seleccion(lista):
+    largo = len(lista)
+    for i in range(largo):
+        # Encontrar el índice del elemento mínimo
+        min_index = i
+        for j in range(i+1, largo):
+            if lista[j] < lista[min_index]:
+                min_index = j
+        # Intercambiar el elemento mínimo con el elemento actual
+        lista[i], lista[min_index] = lista[min_index], lista[i]
     return lista
 
 # Programa principal
 
 lista_ordenada = []
 
-print("---Ordenamiento por INCERSIÓN de patentes en lista.---")
+print("---Ordenamiento por SELECCION de patentes en lista.---")
 print("Primeros 10 items sin ordenar.")
 print(lista_patentes[:10])
 
 inicio_tiempo = time.time() # Comienza a medir tiempo
-lista_ordenada = ordenamiento_insercion(lista_patentes)
+lista_ordenada = ordenamiento_seleccion(lista_patentes)
 fin_tiempo = time.time() # Termina contador
 
 print("Primeros 10 items ordenados.")
 print(lista_ordenada[:10])
 
-
 print(f"---Tiempo de busqueda: {(fin_tiempo - inicio_tiempo):.6f} seg---")
+# Se realizo prueba y el tiempo fue de 174.304 (2 minitus y medio aproximadamente)
