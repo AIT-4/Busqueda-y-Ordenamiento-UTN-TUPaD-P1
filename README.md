@@ -49,3 +49,7 @@ donde dice `busqueda_linea.py` cambiar el archivo a ejecutar.
 
 Este trabajo integrador sobre algoritmos de búsqueda y ordenamiento en Python ha sido una experiencia enriquecedora y desafiante para ambos integrantes del equipo. Nos permitió no solo aplicar los conocimientos teóricos adquiridos en la cátedra de Programación 1, sino también enfrentarnos a escenarios más cercanos a la realidad de la programación.
 Este proyecto nos permitió consolidar nuestros conocimientos en la selección, implementación y análisis de algoritmos. Entendemos ahora que la elección del algoritmo correcto y la estructura de datos adecuada pueden tener un impacto significativo en el rendimiento de una aplicación, especialmente con grandes volúmenes de información.
+
+### Video explicativo
+
+[Enlace al video.](https://leautneduar-my.sharepoint.com/:f:/g/personal/federico_durussel_tupad_utn_edu_ar/EpClg27j4K1Dv6NwhKSPKVkBi-ijUJXmQSuilW2GtwDyTw?e=I1dy9i) 
