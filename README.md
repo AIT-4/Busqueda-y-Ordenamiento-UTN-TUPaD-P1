@@ -52,4 +52,8 @@ Este proyecto nos permitió consolidar nuestros conocimientos en la selección, 
 
 ### Video explicativo
 
-[Enlace al video.](https://leautneduar-my.sharepoint.com/:f:/g/personal/federico_durussel_tupad_utn_edu_ar/EpClg27j4K1Dv6NwhKSPKVkBi-ijUJXmQSuilW2GtwDyTw?e=I1dy9i) 
+Federico:
+[Enlace al video.](https://leautneduar-my.sharepoint.com/:f:/g/personal/federico_durussel_tupad_utn_edu_ar/EpClg27j4K1Dv6NwhKSPKVkBi-ijUJXmQSuilW2GtwDyTw?e=I1dy9i)
+
+Fernando:
+[Enlace al video.](https://youtu.be/cujQF07BTOs)
